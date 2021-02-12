@@ -1,0 +1,30 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    background: #e0f5b5;
+    color: #003b45;
+    font-family: sans-serif;
+    line-height: 2;
+}
+
+/* media queries */
+@media screen and ( max-width: 700px ) {
+    body {
+        background: #cbf7bc;
+    }
+
+    #container {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    #socks {
+        width: 100%;
+    }
+}
